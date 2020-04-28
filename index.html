@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Поняття Front-End. HTML</title>
+  </head>
+  <body>
+    <h1>Таблиця</h1>
+    <table>
+      <tr>
+        <th>Ім'я</th>
+        <th>Прізвище</th>
+        <th>Номер телефону</th>
+        <th>Email</th>
+      </tr>
+      <tr>
+        <td>Теслюк</td>
+        <td>Марія</td>
+        <td>(095)987 89 09</td>
+        <td>2345@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Данильчук</td>
+        <td>Анна</td>
+        <td>(095)066 53 87</td>
+        <td>953224@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Матвіїниш</td>
+        <td>Тетяна</td>
+        <td>(095)896 53 47</td>
+        <td>98657@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Юркевич</td>
+        <td>Михайло</td>
+        <td>(095)785 73 20</td>
+        <td>98657@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Багрій</td>
+        <td>Людмила</td>
+        <td>(095)345 67 89</td>
+        <td>90977@gmail.com</td>
+      </tr>
+    </table>
+    <form action="/">
+      <h2>Форми</h2>
+      <p>
+        <input type="text" placeholder="Введіть своє ім'я" />
+      </p>
+      <p>
+        <input type="text" placeholder="Введіть своє прізвище" />
+      </p>
+      <h2>Вкажіть вашу стать</h2>
+      <input type="radio" id="female" name="sex" value="female" checked />
+      <label for="female">Жіноча</label>
+      <input type="radio" id="male" name="sex" value="male" />
+      <label for="male">Чоловіча</label>
+
+      <p>
+        <textarea name="text" id="question" cols="40" rows="8"  placeholder="Ваше запитання"></textarea>
+      </p>
+      <select name="schoice" id="town">
+        <option value="choice" selected disabled>Вибрати місто</option>
+        <option value="Lviv"> Львів </option>
+        <option value="Kyiv"> Київ</option>
+        <option value="Kharkiv"> Харків</option>
+        <option value="Chernivtsi"> Чернівці</option>
+        <option value="Odessa"> Одеса</option>
+        <option value="Vinnytsia"> Вінниця</option>
+      </select>
+      <h2>Вибір мови</h2>
+      <p>
+        <input type="checkbox" id="ukrainian" name="language" />
+        <label for="ukrainian">Українська</label>
+      </p>
+      <p>
+        <input type="checkbox" id="russian" name="language" />
+        <label for="russian">Русский</label>
+      </p>
+      <p>
+        <input type="checkbox" id="english" name="language" />
+        <label for="english">English</label>
+      </p>
+    </form>
+    <button>Надіслати</button>
+  </body>
+</html>
